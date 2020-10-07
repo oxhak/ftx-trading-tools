@@ -7,9 +7,10 @@ You need **[NodeJS](https://nodejs.org/en/download/ "NodeJS")** with npm and **[
 Clone this repository:
 > **git clone https://github.com/oxhak/ftx-trading-tools**
 
-Enter in the **ftx-trading-tools** folder.
+Enter in the **ftx-trading-tools** directory.
 Rename the file **FTXAPIKeys-SAMPLE.js** into **FTXAPIKeys.js**, open it with your favorite text editor and then replace its content with your FTX API Keys.
 
+Set your terminal current directory to **ftx-trading-tools**.
 Then install the needed modules with:
 > **npm install**
 
