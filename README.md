@@ -56,6 +56,6 @@ Start the application with:
 
 ## How to support my work
 
-- **BTC** 3PqYu21eTnWVJovqF1HNqxfaAfYwEfwUTb
+- **BTC [3PqYu21eTnWVJovqF1HNqxfaAfYwEfwUTb](https://www.blockchain.com/btc/address/3PqYu21eTnWVJovqF1HNqxfaAfYwEfwUTb)**
 
-- **Use my [referal link](https://ftx.com/#a=oxhak) to trade on FTX and get a 5% fee discount!** 
+- **Use my [referal link](https://ftx.com/#a=oxhak) to trade on FTX and get a 5% fee discount!**
