@@ -24,10 +24,8 @@ Start the application with:
 > example:  **instrument btc-perp**
 
 -   **balance** (get your wallet balances)
-> example:  **balance**
 
 -  **price** (get the current price of the instrument)
-> example:  **price**
 
 -  **buy {amount}** (buy at market price)
  > example:  **buy 0.001**\
