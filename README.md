@@ -19,14 +19,15 @@ Start the application with:
 > **node ftx-trading-tools.js**
 
 ## Commands
-- **instrument {instrument}** (set the instrument to use on FTX)
-  > example:  **instrument btc-perp**
+
+-   **instrument {instrument}** (set the instrument to use on FTX)
+> example:  **instrument btc-perp**
 
 -   **balance** (get your wallet balances)
-  > example:  **balance**
+> example:  **balance**
 
 -  **price** (get the current price of the instrument)
- > example:  **price**
+> example:  **price**
 
 -  **buy {amount}** (buy at market price)
  > example:  **buy 0.001**\
