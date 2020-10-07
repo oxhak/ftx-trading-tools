@@ -395,6 +395,9 @@ rl.on('line', function(line) {
        console.log("buy {amount}");
        console.log("sell {amount}");
        console.log("split {buy/sell} {amount} into {into} from {from} to {to}");
+       console.log("cancell all");
+       console.log("cancel buys");
+       console.log("cancel sells");
        console.log("help");
        console.log("about");
        console.log("version");
