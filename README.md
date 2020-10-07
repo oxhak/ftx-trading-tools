@@ -1,8 +1,8 @@
 # ftx-trading-tools
-Trading tools for the **[FTX](https://ftx.com/#a=oxhak)** exchange.\
+Trading tools for the **[FTX](https://ftx.com/#a=oxhak "FTX")** exchange.\
 Communicates directly with the FTX api, there is no third party involved.\
 Asynchronous, can execute multiple tasks at the same time.\
-Easy to use with a **[Stream Deck](https://www.elgato.com/en/gaming/stream-deck)**.
+Easy to use with a **[Stream Deck](https://www.elgato.com/en/gaming/stream-deck "Stream Deck")**.
 
 You need **[NodeJS](https://nodejs.org/en/download/ "NodeJS")** with npm and **[Git](https://git-scm.com/downloads "Git")** on your machine to be able to install and use this application.
 
