@@ -1,7 +1,8 @@
 # ftx-trading-tools
 Trading tools for **[FTX](https://ftx.com/#a=oxhak)** exchange.\
-Communicates directly with FTX, there is no third party involved.
-Asynchronous and can execute multiple tasks at the same time.
+Communicates directly with FTX, there is no third party involved.\
+Asynchronous and can execute multiple tasks at the same time.\
+Easy to use with a **[Stream Deck](https://twitter.com/oxhak/status/1312755358851629057)**. 
 
 You need **[NodeJS](https://nodejs.org/en/download/ "NodeJS")** with npm and **[Git](https://git-scm.com/downloads "Git")** on your machine to be able to install and use this application.
 
