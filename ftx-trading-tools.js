@@ -1,5 +1,5 @@
 var readline = require('readline');
-const FTXRest = require('./');
+const FTXRest = require('./ftx-api-rest.js');
 const FTXAPIKeys = require('./FTXAPIKeys.js');
 
 const ftx = new FTXRest({
