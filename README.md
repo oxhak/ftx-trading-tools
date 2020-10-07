@@ -40,7 +40,7 @@ Start the application with:
  > example:  **split buy 0.0493 into 20 from 8745 to 8900**\
  > example:  **split sell 100%account into 40 from M+0.07% to M+2%** (amount is calculated from your total USD wallet balance, you can set any % as you want, 200%account, 500%account)(for the range you can use M+ or M- for market price with numbers or % as you want)
 
--  **cancel all** (cancel all orders and position)
+-  **cancel all** (cancel all orders and close the current position)
 
 -  **cancel buys** (cancel buy orders)
 
