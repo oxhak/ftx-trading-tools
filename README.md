@@ -1,7 +1,7 @@
 # ftx-trading-tools
 Trading tools for **[FTX](https://ftx.com/#a=oxhak)** exchange.
 
-You need **[NodeJS](https://nodejs.org/en/download/ "NodeJS")** with npm and **[GitHub](https://git-scm.com/downloads "GitHub")** on your machine to be able to install and use this application.
+You need **[NodeJS](https://nodejs.org/en/download/ "NodeJS")** with npm and **[Git](https://git-scm.com/downloads "Git")** on your machine to be able to install and use this application.
 
 ## Installation
 Clone this repository:
