@@ -58,4 +58,6 @@ Start the application with:
 
 - **BTC [3PqYu21eTnWVJovqF1HNqxfaAfYwEfwUTb](https://www.blockchain.com/btc/address/3PqYu21eTnWVJovqF1HNqxfaAfYwEfwUTb)**
 
-- **Use my [referal link](https://ftx.com/#a=oxhak) to trade on FTX and get a 5% fee discount!**
+- **XWP [fs2zgcroLsjR8mofH7dNjv7RDQuK6oJhRKrZhSrvGiPNVuvz6RxMVWXAgYM9sS2dAGUQ75jkwQmpEhasuAT95rBC36XwG16jt](https://xwp.one)**
+
+- **Use my [referal link](https://ftx.com/#a=oxhak) to trade on FTX and get a 5% fees discount!**
