@@ -1,6 +1,6 @@
 # ftx-trading-tools
 Trading tools for **[FTX](https://ftx.com/#a=oxhak)** exchange.\
-Communicates directly with FTX, there is no third party involved.\
+Communicates directly with the FTX api, there is no third party involved.\
 Asynchronous, can execute multiple tasks at the same time.\
 Easy to use with a **[Stream Deck](https://twitter.com/oxhak/status/1312755358851629057)**.
 
@@ -11,7 +11,7 @@ Clone this repository:
 > **git clone https://github.com/oxhak/ftx-trading-tools**
 
 Enter into the **ftx-trading-tools** directory.\
-Rename the file **FTXAPIKeys-SAMPLE.js** into **FTXAPIKeys.js**, open it with your favorite text editor and then replace its content with your FTX API Keys.
+Rename the file **FTXAPIKeys-SAMPLE.js** into **FTXAPIKeys.js**, open it with your favorite text editor and then replace its content with your FTX api keys.
 
 Set your terminal current directory to **ftx-trading-tools**.\
 Then install the needed modules with:
