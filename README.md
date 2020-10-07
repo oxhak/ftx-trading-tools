@@ -2,7 +2,7 @@
 Trading tools for the **[FTX](https://ftx.com/#a=oxhak)** exchange.\
 Communicates directly with the FTX api, there is no third party involved.\
 Asynchronous, can execute multiple tasks at the same time.\
-Easy to use with a **[Stream Deck](https://twitter.com/oxhak/status/1312755358851629057)**.
+Easy to use with a **[Stream Deck](https://www.elgato.com/en/gaming/stream-deck)**.
 
 You need **[NodeJS](https://nodejs.org/en/download/ "NodeJS")** with npm and **[Git](https://git-scm.com/downloads "Git")** on your machine to be able to install and use this application.
 
@@ -53,3 +53,9 @@ Start the application with:
 - **about** (about this application)
 
 - **version** (current version of the application)
+
+## How to support my work
+
+- **BTC** 3PqYu21eTnWVJovqF1HNqxfaAfYwEfwUTb
+
+- **Use my [referal link](https://ftx.com/#a=oxhak) to trade on FTX and get a 5% fee discount!** 
