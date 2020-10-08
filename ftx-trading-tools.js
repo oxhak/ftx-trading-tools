@@ -20,7 +20,12 @@ rl.on('line', function(line) {
       method: 'GET',
       path: '/wallet/balances'
     }).then(function(data) {
-       console.log(data);
+       data.result.forEach(function(value, index, array) {
+       console.log("");
+       console.log("------------------");
+       console.log("["+data.result[index].coin+"] [Free "+data.result[index].free+"] [Total "+data.result[index].total+"] [USD Value "+data.result[index].usdValue+"]");
+       console.log("------------------");
+       });
        rl.prompt();
     });
   }
