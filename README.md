@@ -1,6 +1,6 @@
 # ftx-trading-tools
 Trading tools for the **[FTX](https://ftx.com/#a=oxhak "FTX")** exchange.\
-Communicates directly with the FTX api, there is no third party involved.\
+Communicates directly with the FTX api, no third party involved.\
 Asynchronous, can execute multiple tasks at the same time.\
 Easy to use with a **[Stream Deck](https://www.elgato.com/en/gaming/stream-deck "Stream Deck")**.
 
