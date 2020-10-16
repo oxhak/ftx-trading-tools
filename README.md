@@ -37,7 +37,7 @@ Start the application with:
 
 - **sell {amount}** (sell at market price)
  > example:  **sell 0.001**\
- > example:  **sell 100%account** (amount is calculated from your total USD wallet balance, you can set any % as you want, 200%account, 500%account)
+ > example:  **sell 100%account** (amount is calculated from your total USD wallet balance, you can set any % as you want, 200%account, 500%account)\
  > example:  **sell 100%position** (amount is calculated from your open position size, you can set any % as you want from 1-100, 50%position, 10%position)
 
 - **split {buy/sell} {amount} into {into} from {from} to {to}** (split limits orders into a range)
