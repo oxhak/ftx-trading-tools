@@ -242,6 +242,46 @@ function SplitStepPriceFrom(type,amount,into,from,to){
 }
 ///
 
+/// Stop loss
+function StopLoss(distance){
+  distance=distance.replace('%','');
+  ftx.request({
+    method: 'GET',
+    path: '/positions'
+  }).then(function(data) {
+      data.result.forEach(function(value, index, array) {
+           if(data.result[index].future===instrument){
+             if(data.result[index].openSize!=0)
+             var position_side;
+             var stop_price;
+             var stop_size=data.result[index].openSize;
+             if (data.result[index].side === "buy" ){
+             position_side="sell";
+             stop_price=data.result[index].entryPrice-(data.result[index].entryPrice*distance/100);
+             } else if (data.result[index].side === "sell" ) {
+             position_side="buy";
+             stop_price=data.result[index].entryPrice+(data.result[index].entryPrice*distance/100);
+             }
+             ftx.request({
+               method: 'POST',
+               path: '/conditional_orders',
+               data: {
+                 'market': instrument,
+                 'side': position_side,
+                 'triggerPrice': stop_price,
+                 'size': stop_size,
+                 'type': 'stop',
+                 'reduceOnly': true
+               }
+             }).then(function(data) {
+               rl.prompt();
+             });
+           }
+      })
+  });
+}
+///
+
 ///Cancel orders
 function CancelOrders(type){
   if(type === "all"){
@@ -379,6 +419,9 @@ rl.on('line', function(line) {
   rl.setPrompt("FTX["+instrument+"]> ");
   rl.prompt();
   }
+  else if (splittedline[0] === "stop") {
+  StopLoss(splittedline[1]);
+  }
   else if (splittedline[0] === "cancel") {
   CancelOrders(splittedline[1]);
   }
@@ -396,6 +439,7 @@ rl.on('line', function(line) {
        console.log("buy {amount}");
        console.log("sell {amount}");
        console.log("split {buy/sell} {amount} into {into} from {from} to {to}");
+       console.log("stop {distance}%");
        console.log("cancell all");
        console.log("cancel buys");
        console.log("cancel sells");
