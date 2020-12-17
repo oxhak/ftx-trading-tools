@@ -41,9 +41,11 @@ Start the application with:
  > example:  **sell 100%account** (amount is calculated from your total USD wallet balance, you can set any % as you want, 200%account, 500%account)\
  > example:  **sell 100%position** (amount is calculated from your open position size, you can set any % as you want from 1-100, 50%position, 10%position)
 
-- **split {buy/sell} {amount} into {into} from {from} to {to}** (split limits orders into a range)
-| :exclamation:  this works but something is wrong with distance from price, take care using this until it is fixed.  |
+- **split {buy/sell} {amount} into {into} from {from} to {to}** (split limits orders into a range)\
+
+| :exclamation:  this works but something is wrong with distance from price, take care using this until it is fixed. |
 |-----------------------------------------|
+
  > example:  **split buy 0.0493 into 20 from 8745 to 8900**\
  > example:  **split sell 100%account into 40 from M+0.07% to M+2%** (amount is calculated from your total USD wallet balance, you can set any % as you want, 200%account, 500%account)(for the range you can use M+ or M- for market price with numbers or % as you want)\
  > example:  **split sell 100%position into 40 from M+0.07% to M+2%** (amount is calculated from your open position size, you can set any % as you want from 1-100, 50%position, 10%position)(for the range you can use M+ or M- for market price with numbers or % as you want)
