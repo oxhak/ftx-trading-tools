@@ -2,7 +2,7 @@
 Trading tools for the **[FTX](https://ftx.com/#a=oxhak "FTX")** exchange.\
 Communicates directly with the FTX api, no third party involved.\
 Asynchronous, can execute multiple tasks at the same time.\
-Easy to use with a **[Stream Deck](https://www.elgato.com/en/gaming/stream-deck "Stream Deck")**.
+Easy to use with a **[Stream Deck](https://www.elgato.com/en/gaming/stream-deck "Stream Deck")**.\
 ![](streamdeck-demo.gif)
 
 You need **[NodeJS](https://nodejs.org/en/download/ "NodeJS")** with npm and **[Git](https://git-scm.com/downloads "Git")** on your machine to be able to install and use this application.
@@ -42,9 +42,8 @@ Start the application with:
  > example:  **sell 100%position** (amount is calculated from your open position size, you can set any % as you want from 1-100, 50%position, 10%position)
 
 - **split {buy/sell} {amount} into {into} from {from} to {to}** (split limits orders into a range)
-```diff
-- this works but something is wrong with distance from price, take care using this until it is fixed.
-```
+| :exclamation:  this works but something is wrong with distance from price, take care using this until it is fixed.  |
+|-----------------------------------------|
  > example:  **split buy 0.0493 into 20 from 8745 to 8900**\
  > example:  **split sell 100%account into 40 from M+0.07% to M+2%** (amount is calculated from your total USD wallet balance, you can set any % as you want, 200%account, 500%account)(for the range you can use M+ or M- for market price with numbers or % as you want)\
  > example:  **split sell 100%position into 40 from M+0.07% to M+2%** (amount is calculated from your open position size, you can set any % as you want from 1-100, 50%position, 10%position)(for the range you can use M+ or M- for market price with numbers or % as you want)
