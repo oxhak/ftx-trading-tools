@@ -447,11 +447,11 @@ rl.on('line', function(line) {
        console.log("about");
        console.log("version");
        console.log("------------------");
-       console.log("More infos at https://github.com/oxhak/ftx-trading-tools#README");
+       console.log("More infos at https://github.com/oxhak/oxhak-trading-tools#README");
        console.log("------------------");
        rl.prompt();
   } else if (line === "about") {
-       console.log("ftx-trading-tools https://github.com/oxhak/ftx-trading-tools");
+       console.log("oxhak-trading-tools https://github.com/oxhak/oxhak-trading-tools");
        rl.prompt();
   } else if (line === "version") {
        console.log("v0.0.1");

@@ -1,5 +1,5 @@
 {
-  "name": "ftx-trading-tools",
+  "name": "oxhak-trading-tools",
   "version": "0.0.1",
   "description": "Trading tools for the FTX exchange",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oxhak/ftx-trading-tools.git"
+    "url": "git+https://github.com/oxhak/oxhak-trading-tools.git"
   },
   "keywords": [
     "nodejs",
@@ -22,9 +22,9 @@
   "author": "Ox HaK <https://keybase.io/oxhak>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oxhak/ftx-trading-tools/issues"
+    "url": "https://github.com/oxhak/oxhak-trading-tools/issues"
   },
-  "homepage": "https://github.com/oxhak/ftx-trading-tools#readme",
+  "homepage": "https://github.com/oxhak/oxhak-trading-tools#readme",
   "dependencies": {
     "readline": "^1.3.0"
   }

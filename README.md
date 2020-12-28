@@ -1,4 +1,4 @@
-# ftx-trading-tools
+# oxhak-trading-tools
 Trading tools for the **[FTX](https://ftx.com/#a=oxhak "FTX")** exchange.\
 Communicates directly with the FTX api, no third party involved.\
 Asynchronous, can execute multiple tasks at the same time.\
@@ -9,18 +9,18 @@ You need **[NodeJS](https://nodejs.org/en/download/ "NodeJS")** with npm and **[
 
 ## Installation
 Clone this repository:
-> **git clone https://github.com/oxhak/ftx-trading-tools**
+> **git clone https://github.com/oxhak/oxhak-trading-tools**
 
-Enter into the **ftx-trading-tools** directory.\
+Enter into the **oxhak-trading-tools** directory.\
 Rename the file **FTXAPIKeys-SAMPLE.js** into **FTXAPIKeys.js**, open it with your favorite text editor and then replace its content with your FTX api keys.
 
-Set your terminal current directory to **ftx-trading-tools**.\
+Set your terminal current directory to **oxhak-trading-tools**.\
 Then install the needed modules with:
 > **npm install**
 
 ## How to use
 Start the application with:
-> **node ftx-trading-tools.js**
+> **node oxhak-trading-tools.js**
 
 ## Commands
 
