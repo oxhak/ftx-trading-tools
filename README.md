@@ -7,6 +7,11 @@ Easy to use with a **[Stream Deck](https://www.elgato.com/en/gaming/stream-deck 
 
 You need **[NodeJS](https://nodejs.org/en/download/ "NodeJS")** with npm and **[Git](https://git-scm.com/downloads "Git")** on your machine to be able to install and use this application.
 
+This program needs API keys to communicate with FTX, to generate your keys go to the **[External Program API Keys](https://ftx.com/external-program-api-keys "External Program API Keys")** page and click on **CREATE API KEY**.\
+![](FTX_External_API_Keys.png)
+
+If you don't have an FTX account yet, **use my [referal link](https://ftx.com/#a=oxhak) and get a 5% fees discount on all your trades**.
+
 ## Installation
 Clone this repository:
 > **git clone https://github.com/oxhak/oxhak-trading-tools**
@@ -70,4 +75,4 @@ Start the application with:
 - **BTC**
 >3PqYu21eTnWVJovqF1HNqxfaAfYwEfwUTb
 
-- **Use my [referal link](https://ftx.com/#a=oxhak) to trade on FTX and get a 5% fees discount!**
+- **Use my [referal link](https://ftx.com/#a=oxhak) to trade on FTX and get a 5% fees discount on all your trades!**
