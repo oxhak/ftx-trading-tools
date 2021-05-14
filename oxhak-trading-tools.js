@@ -1,4 +1,4 @@
-const sleep = (waitTimeInMs) => new Promise(resolve => setTimeout(resolve, waitTimeInMs));
+const sleepNow = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
 var readline = require('readline');
 const FTXRest = require('./ftx-api-rest.js');
 const FTXAPIKeys = require('./FTXAPIKeys.js');
@@ -101,11 +101,12 @@ function MarketEntry(type, amount){
 }
 ///
 ///Splitted orders
-function SplitFinalStep(type,splitsteppedamount,into,splitsteppedfrom,splitsteppedto,reduceonly){
+async function SplitFinalStep(type,splitsteppedamount,into,splitsteppedfrom,splitsteppedto,reduceonly){
 var pricestep=(splitsteppedto-splitsteppedfrom)/into;
 var price=splitsteppedfrom;
 var i=1;
 while (i <= into) {
+  await sleepNow(500)
   ftx.request({
     method: 'POST',
     path: '/orders',
